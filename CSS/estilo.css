@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Kode+Mono:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Rock+Salt&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
+
+html,body{
+    height: 100%;
+}
+.pontos {
+    list-style-type: none; /* Remove os pontos de lista */
+  }
+
+  .link{
+    text-decoration: underline;
+    color: black;
+  }
+
+.logo{
+    width: 80px;
+    
+}
+
+.logo1{
+    width: 40px;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.menu{
+    font-family: Quicksand;
+}
+
+.titulo{
+    font-family: Kode Mono;
+    font-size: 40px;
+}
+
+.imagem{
+    float: left; /* Flutuar a imagem para a esquerda */
+    margin-right: 30px; /* Margem à direita para separar a imagem do texto */
+     width: 35%;
+    height: auto; 
+    border-radius: 30px;
+    border-color: black;
+
+    
+}
+
+.travis{
+    font-family: New Rocker;
+    font-size: 120px;
+}
+
+.texto{
+    margin-left: 20px;
+
+}
+
+.container2 {
+    overflow: hidden;
+}
+
+.container3{
+    display: flex; /* Usar flexbox para alinhar os itens */
+    align-items: center; /* Alinhar itens verticalmente */
+}
+
+.texto1{
+    flex: 1;
+}
+
+
+.imagem2 {
+    width: 35%;
+    float: right; /* Flutuar a imagem para a direita */
+    margin-left: 20px; /* Margem à esquerda para separar a imagem do texto */
+    height: auto; /* Altura automática para manter a proporção da imagem */
+    border-radius: 30px;
+}
+
+.elemento {
+    opacity: 0; /* Começa com opacidade 0 (invisível) */
+    transition: opacity 1s ease; /* Transição suave para a propriedade de opacidade */
+}
+
+.bg1{
+    background-color:#BDB76B 
+}
+
+.float{
+    float: right;
+}
+
+.espaçamento{
+    padding-left: 13%;
+    padding-right: 3%;
+    font-family: Barriecito;
+}
+
+.musica{
+    font-family: rock salt;
+}
+
+.bg2{
+    background-color: #DEB887;
+}
+
+.bg3{
+    background-color: black;
+}
+
+.menu2{
+    display: flex;
+}
+
+.texto2{
+    font-family: playfair Display;
+    font-size: 20px;
+}
+
+.imagem3{
+    border-radius: 20px;
+}
